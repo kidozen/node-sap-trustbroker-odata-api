@@ -1,0 +1,19 @@
+{
+  "name": "sap-trustbroker-odata-api",
+  "version": "1.0.0",
+  "description": "Module to invoke SAP oData Web Service where the authentiation process is integrated with Cybersafe TrustBroker",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec"
+  },
+  "dependencies": {
+    "cybersafe-trustbroker": "https://github.com/kidozen/node-cybersafe-trustbroker/tarball/prod",
+    "kido-connector": "^1.x",
+    "lodash": "^3.6.0",
+    "odata-api": "https://github.com/kidozen/node-odata-api/tarball/prod",
+    "simple-errors": "^1.0.1",
+    "winston": "^0.9.0"
+  },
+  "author": "Kidozen",
+  "license": "MIT"
+}
